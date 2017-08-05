@@ -1,0 +1,128 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+
+.h1, h1 {
+  font-size:24px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-default {
+  background-color: #f7f8da;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+  background-color: #f6ecc3;
+  color: #a86f1c;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+  font-weight: bold;
+}
+
+.main_content h1 {
+  font-family: 'Yellowtail', cursive;
+  color: #dd8d05;
+}
+
+.main_content p {
+ text-align: justify;
+}
+
+.jumbotron {
+  background-image: url('../images/pexels-photo-253682.jpeg');
+}
+
+#gallery.jumbotron {
+  background-image: url('../images/pexels-photo-296649.jpeg');
+}
+
+#contact.jumbotron {
+  background-image: url('../images/pexels-photo-102127.jpeg');
+}
+
+#classes.jumbotron {
+  background-image: url('../images/pexels-photo-187334.jpeg');
+}
+
+#bio.jumbotron {
+  background-image: url('../images/251274.jpg');
+}
+
+#classes.jumbotron p, #gallery.jumbotron p {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#bio.jumbotron p, #contact.jumbotron p {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+#bio.jumbotron.h1, #bio.jumbotron h1 {
+    color: #f9f2bc;
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+    color: #ffe98d;
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+}
+
+.jumbotron p {
+  font-size: 28px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+
+#footer hr {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 25px;
+}
+
+.copy_left {
+ font-size: 14px;
+ color: grey;
+ float:left;
+ display: inline-block;
+ margin: 1em;
+}
+
+.copy_right {
+  font-size: 14px;
+  color: lightgray;
+  float:right;
+  display: inline-block;
+  margin: 1em;
+}
+
+.sources {
+  font-size: 14px;
+  padding-top: 20px
+}
